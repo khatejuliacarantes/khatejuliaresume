@@ -1,0 +1,82 @@
+body {
+	background-image: url(../images/k12.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	font-family: Bahnschrift;
+	text-align: center;
+	color: Black;
+}
+a{
+	text-decoration: none;
+}
+.elow {
+	display: grid;
+	margin-bottom: 50px;
+	grid-template-columns: 2fr 3fr;
+	grid-template-rows: 1fr;
+	padding-left: 70px;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#main-menu {
+	display: grid;
+	margin: 0;
+	padding-right: 100px;
+	text-align: center;
+	list-style: none;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}      
+.button {
+	color: black;
+	padding-top: 70px;
+	text-align: left;
+	padding-right: 100px;
+
+}
+
+.travels{
+	padding: 0;
+	margin-bottom: 0;
+	
+}
+.pic-left{
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.pic1, .pic2, .pic3 {
+	border-radius: 50%;
+}
+
+.pic1:hover, .pic2:hover, .pic3:hover {
+	opacity:0.6;
+}
+	
+#footer {
+	display: grid;
+	margin: 40px;
+	padding:5px;
+	text-align: center;
+	list-style: none;
+	font-size: 13px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background: #abb2b9;
+}      
+
+.kjc {
+	border-radius: 50%;
+}
+
+
+.kjc {
+	border-radius: 50%;
+}

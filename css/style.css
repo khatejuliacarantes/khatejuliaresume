@@ -1,0 +1,119 @@
+body {
+	background-image: url(../images/k12.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	font-family: Bahnschrift;
+	text-align: center;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+.elow {
+	color: black;
+	display: grid;
+	margin-bottom: 50px;
+	grid-template-columns: 2fr 3fr;
+	grid-template-rows: 1fr;
+	padding-left: 70px;
+}
+.navbar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#main-menu {
+	display: grid;
+	margin: 0;
+	padding-right: 100px;
+	text-align: center;
+	list-style: none;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}      
+                                                                                                                                                              
+.button {
+	color: black;
+	padding-top: 70px;
+	text-align: left;
+	padding-right: 100px;
+
+}
+
+.pic {
+	border-radius: 50%;
+}
+
+.home {
+	padding-left: 200px;
+	display: grid;
+	margin-bottom: 50px;
+	margin: 50px;
+	padding: 50px;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr;
+	grid-gap: 50px;
+	background: white;
+	opacity: 0.9;
+}
+
+.gam {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	
+}
+h5{
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.text{
+	color: black;
+	position:abosolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.container, .container1, .container2 {
+	position: relative;
+	height: 100px;
+	width: 100px;
+}
+.container{ 
+	border-radius: 50%;
+	background: #d6eaf8;
+}
+
+.container1 {
+	border-radius: 50%;
+	background: #d0ece7;
+}
+.container2 {
+	border-radius: 50%;
+	background: #fae5d3;
+}
+
+#contact {
+	background: white;
+	margin: 25px;
+	padding-top: 5px;
+	padding: 50px;
+	opacity: 0.9;
+}
+
+#footer {
+	display: grid;
+	margin: 40px;
+	padding:5px;
+	text-align: center;
+	list-style: none;
+	font-size: 13px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background: #abb2b9;
+}      
+
+.kjc {
+	border-radius: 50%;
+}
